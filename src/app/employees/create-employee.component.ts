@@ -14,7 +14,7 @@ export class CreateEmployeeComponent implements OnInit {
   }
   // create a save form method
   saveEmployee(empForm: NgForm): void{
-    console.log(empForm);
+    console.log(empForm.value);
   }
 
 }
