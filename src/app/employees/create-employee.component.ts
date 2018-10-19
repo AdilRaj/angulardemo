@@ -11,12 +11,13 @@ export class CreateEmployeeComponent implements OnInit {
   email = '';
   fullName = '';
   phoneNumber = '';
+  isActive = true;
   constructor() { }
 
   ngOnInit() {
   }
   // create a save form method
-  saveEmployee(empForm: NgForm): void{
+  saveEmployee(empForm: NgForm): void {
     console.log(empForm.value);
   }
 

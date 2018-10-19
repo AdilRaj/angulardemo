@@ -14,6 +14,7 @@
         <label for="email">Email</label>
         <input class="form-control" [(ngModel)]="email" name="email" id="email" type="text"/>
       </div>
+
       <div class="form-group">
         <label>Gender</label>
         <div class="form-control">
@@ -29,6 +30,17 @@
           </label>
         </div>
       </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <div class="form-control">
+          <label class="checkbox-inline">
+            <input name="isActive" [(ngModel)]="isActive" type="checkbox"/>
+            Is Active
+          </label>
+        </div>
+      </div>
+
       <div class="form-group">
         <label for="phoneNumber">Phone Number</label>
         <input class="form-control" [(ngModel)]="phoneNumber" name="phoneNumber" id="phoneNumber" type="text"/>
